@@ -5,5 +5,5 @@
   tasks:
     - name: upgrade all packages
       yum:
-        name: '*'
+        name: httpd
         state: latest
